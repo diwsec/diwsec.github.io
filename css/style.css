@@ -126,7 +126,7 @@ div a:hover {
 }
 
 .name {
-  font-size: 250%;
+  font-size: 180%;
   color: aqua;
   margin: 0 0 0 1%;
   }
@@ -146,14 +146,21 @@ div a:hover {
 .whati {
   color: rgb(206, 209, 208);
   margin: 0 0 0 1%;
-  font-size: x-large;
+  font-size: large;
 }
 
 .whatid {
-  font-size: 120%;
+  font-size: large;
   color: rgb(89, 241, 241);
   margin: 0 0 0 1%;
   }
 
+  .directr {
+    color: aliceblue;
+  }
 
-
+  .green {
+    color: #8bd358;
+    font-size: 180%;
+    margin: 1% 0 0 1%;
+  }
