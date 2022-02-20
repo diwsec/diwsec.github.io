@@ -143,10 +143,6 @@ div a:hover {
   font-size: x-large;
 }
 
-mark {
-  background-color: #ffffff;
-}
-
 .whati {
   color: rgb(206, 209, 208);
   margin: 0 0 0 1%;
@@ -159,22 +155,5 @@ mark {
   margin: 0 0 0 1%;
   }
 
-  .pentdocks {
-    font-size: 250%;
-    color: aqua;
-    margin: 0 0 0 1%;
-    text-align: center;
-  }
 
-  .webapp {
-    margin: 0 0 0 1%;
-  color: #8be04d;
-  font-size: larger;
-  text-align: center;
-  }
 
-@media(max-width:600px) {
-  .image {
-    height: 30vw;
-    width: 80vw;
-}
