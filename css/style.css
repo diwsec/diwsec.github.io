@@ -2,7 +2,7 @@
 
 @font-face {
   src: url("../fonts/FontsFree-Net-OperatorMono-Medium.ttf");
-  font-family: "sarve-sh";
+  font-family: "diwu-sec";
 }
 
 * {
@@ -12,11 +12,11 @@
 }
 
 :root {
-  --text-color: #98c379;
+  --text-color: #8bd358;
 }
 
 body {
-  font-family: "sarve-sh";
+  font-family: "diwu-sec";
   background-color: #22272e;
   color: #ccc;
   font-size: 18px;
@@ -34,25 +34,25 @@ h2 {
 }
 
 h3 {
-  font-family: "sarve-sh";
+  font-family: "diwu-sec";
   margin-bottom: 10px;
 }
 
 div {
   list-style-type: none;
-  display: flex;
+  display: flex;  
   flex-direction: column;
 }
 
 a {
   color: var(--text-color);
-  font-family: "sarve-sh";
+  font-family: "diwu-sec";
   text-decoration: none;
 }
 
-p {
+/* p {
   margin: 20px 0;
-}
+} */
 
 nav {
   width: 50%;
@@ -61,7 +61,8 @@ nav {
 div a {
   color: var(--text-color);
   cursor: pointer;
-  background-color: #649bcc1f;
+  font-size: 113%;
+  /* background-color: #649bcc1f; */
   margin: 5px 10px 5px 0px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -103,3 +104,71 @@ div a:hover {
 .folder {
   color: #649bcc;
 }
+
+.image {
+    height: 30vw;
+    width: 80vw;
+    margin: 2vh;
+}
+
+.heading {
+  color: var(--text-color);
+  font-size: 30px;
+  /* letter-spacing: 0; */
+  text-align: left;
+  margin: 1%;
+  display: inline-block;
+  /* mixture of block and inline */
+}
+
+.heading:hover {
+  text-decoration: underline;
+}
+
+.name {
+  font-size: 250%;
+  color: aqua;
+  margin: 0 0 0 1%;
+  }
+
+.informa {
+  margin: 0 0 0 1%;
+  color: #8be04d;
+  font-size: larger;
+  display: inline-block;
+}
+
+.writer {
+  margin: 0 0.5% 0 1%;
+  font-size: large;
+}
+
+mark {
+  background-color: #ffffff;
+}
+
+.whati {
+  color: rgb(206, 209, 208);
+  margin: 0 0 0 1%;
+  font-size: x-large;
+}
+
+.whatid {
+  font-size: 120%;
+  color: rgb(89, 241, 241);
+  margin: 0 0 0 1%;
+  }
+
+  .pentdocks {
+    font-size: 250%;
+    color: aqua;
+    margin: 0 0 0 1%;
+    text-align: center;
+  }
+
+  .webapp {
+    margin: 0 0 0 1%;
+  color: #8be04d;
+  font-size: larger;
+  text-align: center;
+  }
