@@ -173,7 +173,7 @@ mark {
   text-align: center;
   }
 
-@media(max-width:500px) {
+@media(max-width:600px) {
   .image {
     height: 30vw;
     width: 80vw;
