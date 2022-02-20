@@ -106,8 +106,8 @@ div a:hover {
 }
 
 .image {
-    height: 30vw;
-    width: 80vw;
+    height: 420px;
+    width: 980px;
     margin: 2vh;
 }
 
@@ -172,3 +172,9 @@ mark {
   font-size: larger;
   text-align: center;
   }
+
+@media(max-width:500px) {
+  .image {
+    height: 30vw;
+    width: 80vw;
+}
