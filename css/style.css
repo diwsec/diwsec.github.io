@@ -126,15 +126,15 @@ div a:hover {
 }
 
 .name {
-  font-size: 180%;
-  color: aqua;
+  font-size: 140%;
+  color: rgb(255, 255, 255);
   margin: 0 0 0 1%;
   }
 
 .informa {
   margin: 0 0 0 1%;
   color: #8be04d;
-  font-size: larger;
+  font-size: x-large;
   display: inline-block;
 }
 
@@ -142,18 +142,6 @@ div a:hover {
   margin: 0 0.5% 0 1%;
   font-size: x-large;
 }
-
-.whati {
-  color: rgb(206, 209, 208);
-  margin: 0 0 0 1%;
-  font-size: large;
-}
-
-.whatid {
-  font-size: large;
-  color: rgb(89, 241, 241);
-  margin: 0 0 0 1%;
-  }
 
   .directr {
     color: aliceblue;
