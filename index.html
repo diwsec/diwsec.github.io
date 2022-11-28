@@ -1,188 +1,168 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-  <head>
-    <meta content="text/html" charset="UTF-8" http-equiv="Content-Type" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Personal site of diwsec, diwsec's Space." />
-    <title>diwsec</title>
-    <link rel="icon" href="images/favicon.png" type="image/png"/>
 
-    <!-- For Performance Improvements -->
-    <link
-      crossorigin
-      rel="preload"
-      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap"
-      as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.11.0/devicon.min.css"
-      integrity="sha512-QVvV1k8iL0nu9XAzMIR11N8swkeXyG5nKSnV595s+OVjI4JM8JLRlWfaDZ8bGBGAF/K945Hux9QRIctNkUKNcQ=="
-      crossorigin="anonymous"
-    />
-    <link rel="preload" href="styles/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-    <link href="styles/styles.css" rel="stylesheet" />
+<head>
+  <meta content="text/html" charset="UTF-8" http-equiv="Content-Type" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Personal site of diwsec, diwsec's Space." />
+  <title>diwsec</title>
+  <link rel="icon" href="images/favicon.png" type="image/png" />
 
-    <noscript>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" />
-      <link
-        crossorigin="anonymous"
-        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
-      />
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.14.0/devicon-base.min.css"
-        integrity="sha512-QBmAN0VX1lfrhdUcl92KLv3Rxm2NJmAWsGrQd6vnfXExmMLq6MTCmBzeKRqvQ8HczAW3VkUHE5/WKhKObmXTbw=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"
-      />
-      <link href="styles/bootstrap.min.cs" rel="stylesheet" />
-    </noscript>
-  </head>
+  <!-- For Performance Improvements -->
+  <link crossorigin rel="preload" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap"
+    as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.11.0/devicon.min.css"
+    integrity="sha512-QVvV1k8iL0nu9XAzMIR11N8swkeXyG5nKSnV595s+OVjI4JM8JLRlWfaDZ8bGBGAF/K945Hux9QRIctNkUKNcQ=="
+    crossorigin="anonymous" />
+  <link rel="preload" href="styles/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link href="styles/styles.css" rel="stylesheet" />
 
-  <body>
-    <div id="mobile-menu-open" class="shadow-large">
-      <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    <!-- End #mobile-menu-toggle -->
-    <nav>
-      <header accesskey="2" tabindex="0">
-        <div id="mobile-menu-close">
-          <i class="fa fa-window-close shadow-large" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#experience">Experience</a>
-          </li>
-          <li>
-            <a href="#education">Education</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <button id="play-button">Play</button>
-          <!-- <button id="stop-button">Stop</button> -->
-        </ul>
-      </header>
-    </nav>
-    <!-- End header -->
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" />
+    <link crossorigin="anonymous"
+      integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.14.0/devicon-base.min.css"
+      integrity="sha512-QBmAN0VX1lfrhdUcl92KLv3Rxm2NJmAWsGrQd6vnfXExmMLq6MTCmBzeKRqvQ8HczAW3VkUHE5/WKhKObmXTbw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="styles/bootstrap.min.cs" rel="stylesheet" />
+  </noscript>
+</head>
 
-    <section id="lead">
-      <div id="lead-content">
-        <img id="me" src="https://github.com/diwsec.png" alt="Me" />
-                <h2>______________________________________</h2>
-        <h1>Diwakar</h1>
-        <h2><u> Diwsec </u></h2>
-        <h2>
-          I'm
-          <span
-            class="typewriter"
-            data-period="2000"
-            data-type='
+<body>
+  <div id="mobile-menu-open" class="shadow-large">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+  </div>
+  <!-- End #mobile-menu-toggle -->
+  <nav>
+    <header accesskey="2" tabindex="0">
+      <div id="mobile-menu-close">
+        <i class="fa fa-window-close shadow-large" aria-hidden="true"></i>
+      </div>
+      <ul id="menu" class="shadow">
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+        <li>
+          <a href="#education">Education</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <button id="play-button">Play</button>
+        <!-- <button id="stop-button">Stop</button> -->
+      </ul>
+    </header>
+  </nav>
+  <!-- End header -->
+
+  <section id="lead">
+    <div id="lead-content">
+      <img id="me" src="https://github.com/diwsec.png" alt="Me" />
+      <h2>______________________________________</h2>
+      <h1>Diwakar</h1>
+      <h2><u> Diwsec </u></h2>
+      <h2>
+        I'm
+        <span class="typewriter" data-period="2000" data-type='
             ["a CyberSecurity Researcher.",
             "a Entrepreneur.",
             "a coder.",
-            "glad to see you here :)"]'
-          >
-            <span class="wrap"></span>
-          </span>
-        </h2>
-        <nav class="social">
-          <ul>
-            <li>
-              <a href="mailto:diwubugbounty@gmail.com" target="_blank" rel="noopener" accesskey="m">
-                <i class="fa fa-envelope" aria-hidden="true" title="diwsec's Mail"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/diwsec" target="_blank" rel="noopener" accesskey="g">
-                <i class="fab fa-github" aria-hidden="true" title="diwsec's GitHub Profile"></i>
-              </a>
-            </li>
-            <!-- <li>
+            "glad to see you here :)"]'>
+          <span class="wrap"></span>
+        </span>
+      </h2>
+      <nav class="social">
+        <ul>
+          <li>
+            <a href="mailto:diwubugbounty@gmail.com" target="_blank" rel="noopener" accesskey="m">
+              <i class="fa fa-envelope" aria-hidden="true" title="diwsec's Mail"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/diwsec" target="_blank" rel="noopener" accesskey="g">
+              <i class="fab fa-github" aria-hidden="true" title="diwsec's GitHub Profile"></i>
+            </a>
+          </li>
+          <!-- <li>
               <a href="https://diwsec.github.io/blog" target="_blank" rel="noopener" accesskey="b">
                 <i class="fab fa-blogger" aria-hidden="true" title="diwsec's Blog"></i>
               </a>
             </li> -->
-            <li>
-              <a href="https://linkedin.com/in/diwsec" target="_blank" rel="noopener" accesskey="l">
-                <i class="fab fa-linkedin" aria-hidden="true" title="diwsec's Linkedin Profile"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/diwsec" target="_blank" rel="noopener" accesskey="t">
-                <i class="fab fa-twitter" aria-hidden="true" title="diwsec's Twitter Profile"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://instagram.com/diwsec" target="_blank" rel="noopener" accesskey="z">
-                <i class="fab fa-instagram" aria-hidden="true" title="diwsec's Instagram Profile"></i>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <!-- End #lead-content -->
+          <li>
+            <a href="https://linkedin.com/in/diwsec" target="_blank" rel="noopener" accesskey="l">
+              <i class="fab fa-linkedin" aria-hidden="true" title="diwsec's Linkedin Profile"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/diwsec" target="_blank" rel="noopener" accesskey="t">
+              <i class="fab fa-twitter" aria-hidden="true" title="diwsec's Twitter Profile"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com/diwsec" target="_blank" rel="noopener" accesskey="z">
+              <i class="fab fa-instagram" aria-hidden="true" title="diwsec's Instagram Profile"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- End #lead-content -->
 
-      <div id="lead-overlay"></div>
+    <div id="lead-overlay"></div>
 
-      <div id="lead-down">
-        <span>
-          <i class="fa fa-chevron-down" aria-hidden="true" title="More"></i>
-        </span>
-      </div>
-      <!-- End #lead-down -->
-    </section>
-    <!-- End #lead -->
+    <div id="lead-down">
+      <span>
+        <i class="fa fa-chevron-down" aria-hidden="true" title="More"></i>
+      </span>
+    </div>
+    <!-- End #lead-down -->
+  </section>
+  <!-- End #lead -->
 
-    <section id="about" accesskey="a">
-      <h2 class="heading">About Me</h2>
-      <p>
-        Hi visitor, diwsec here, Welcome to my little space on the internet. I am a passionate CyberSecurity Researcher
-        and a Enetrepreneur. Learning new things, making stuff, and exploring technology is my
-        passion.<br />
-        <br />
-        You can find links to my <!-- <a href="https://diwsec.github.io/blog" target="_blank" rel="noopener">blog</a>, -->
-        <a href="#lead">social profiles</a>, and various projects here. Feel free to
-        <a href="mailto:diwubugbounty@gmail.com" target="_blank" rel="noopener" accesskey="m"> shoot me a mail</a> if
-        anything here managed to catch your attention.<br />
-      </p>
-    </section>
-    <!-- End #about -->
+  <section id="about" accesskey="a">
+    <h2 class="heading">About Me</h2>
+    <p>
+      Hi visitor, diwsec here, Welcome to my little space on the internet. I am a passionate CyberSecurity Researcher
+      and a Enetrepreneur. Learning new things, making stuff, and exploring technology is my
+      passion.<br />
+      <br />
+      You can find links to my
+      <!-- <a href="https://diwsec.github.io/blog" target="_blank" rel="noopener">blog</a>, -->
+      <a href="#lead">social profiles</a>, and various projects here. Feel free to
+      <a href="mailto:diwubugbounty@gmail.com" target="_blank" rel="noopener" accesskey="m"> shoot me a mail</a> if
+      anything here managed to catch your attention.<br />
+    </p>
+  </section>
+  <!-- End #about -->
 
-    <section id="experience" class="background-alt" accesskey="e">
-      <h2 class="heading">Experience</h2>
-      <div id="experience-timeline">
-        <div data-date="June 2022 – Present" class="shadow">
-          <h3>Cyber Security Researcher</h3>
-          <h4>Bug Bounthy Hunter </h4>
-          Hacking legally into VDP and RDP's.
-          <ul>
-            <li>
-              Finding critical bugs on Web Applications on Internet.
-            </li>
-            <li>
-              Hacked into 10+ companies.
-            </li>
+  <section id="experience" class="background-alt" accesskey="e">
+    <h2 class="heading">Experience</h2>
+    <div id="experience-timeline">
+      <div data-date="June 2022 – Present" class="shadow">
+        <h3>Cyber Security Researcher</h3>
+        <h4>Bug Bounthy Hunter </h4>
+        Hacking legally into VDP and RDP's.
+        <ul>
+          <li>
+            Finding critical bugs on Web Applications on Internet.
+          </li>
+          <li>
+            Hacked into 10+ companies.
+          </li>
           <li>
             Found Bugs like RCE, SSRF, IDOR, Information Disclosures, XSS, Access Control Bugs, Authorization Bugs etc.
           </li>
-          </ul>
-        </div>
+        </ul>
+      </div>
 
-        <!-- <div data-date="September 2020 – June 2021" class="shadow">
+      <!-- <div data-date="September 2020 – June 2021" class="shadow">
           <h3>W</h3>
           <h4>Project Engineer</h4>
           Worked in an Agile project with a Latin American client in the consumer products sector, part of a global
@@ -197,7 +177,7 @@
             </li>
           </ul>
         </div> -->
-<!--
+      <!--
         <div data-date="March 2020 – Present" class="shadow">
           <h3>Mentors Without Borders</h3>
           <h4>Mentor</h4>
@@ -218,29 +198,29 @@
           </ul>
         </div>
       </div> -->
-    </section>
-    <!-- End #experience -->
+  </section>
+  <!-- End #experience -->
 
-    <section id="education" accesskey="r">
-      <h2 class="heading">Education</h2>
-      <div class="education-block shadow">
-        <h3>CMR University</h3>
-        <span class="education-date">  2021- 2024</span>
-        <h4>Bachelor of Computer Application</h4>
-        <h4>Specialized in cloud computing</h4>
-        <ul>
-          <li>
-            Spent most of my time self-learning, doing Open-Source projects, and learning new
-            technologies.
-          </li>
-          <li>
-            Learned about core CS concepts like Data Structures, Operating Systems, Databases, Networking
-            etc.
-          </li>
-        </ul>
-      </div>
-     <!-- End .education-block -->
-      <!-- <div class="education-block shadow">
+  <section id="education" accesskey="r">
+    <h2 class="heading">Education</h2>
+    <div class="education-block shadow">
+      <h3>CMR University</h3>
+      <span class="education-date"> 2021- 2024</span>
+      <h4>Bachelor of Computer Application</h4>
+      <h4>Specialized in cloud computing</h4>
+      <ul>
+        <li>
+          Spent most of my time self-learning, doing Open-Source projects, and learning new
+          technologies.
+        </li>
+        <li>
+          Learned about core CS concepts like Data Structures, Operating Systems, Databases, Networking
+          etc.
+        </li>
+      </ul>
+    </div>
+    <!-- End .education-block -->
+    <!-- <div class="education-block shadow">
         <h3>Rampurhat Jitendralal Vidyabhaban</h3>
         <span class="education-date"> 2014 - 2016</span>
         <h4>Secondary & Higher Secondary</h4>
@@ -249,9 +229,19 @@
         </ul>
       </div>  -->
 
-      <!-- End .education-block -->
-    </section>
-    <!-- End #education -->
+    <!-- End .education-block -->
+  </section>
+  <!-- End #education -->
+
+  <section id="education" accesskey="r">
+    <h2 class="heading">currently working on a startup!</h2>
+    <div class="education-block shadow">
+      <h3>Movingreens</h3>
+      <h4>growing fresh and hygiene microgreens and delivering to doorstep</h4>
+      <ul>
+<a href="https://movingreens.in">check out the website</a>
+      </ul>
+    </div>
 
     <section id="projects" class="background-alt" accesskey="p">
       <h2 class="heading">Projects</h2>
@@ -260,18 +250,16 @@
           <div class="project-info">
             <h3>Pentdocks</h3>
             <p>Bug Bounty Tools for Docker</p>
-            <a href="https://github.com/diwsec/pentdocks" target="_blank" rel="noopener" class="btn-rounded-blue"
-              >View Project</a
-            >
+            <a href="https://github.com/diwsec/pentdocks" target="_blank" rel="noopener" class="btn-rounded-blue">View
+              Project</a>
           </div>
         </div>
-         <div class="project shadow">
+        <div class="project shadow">
           <div class="project-info">
             <h3>Penttools</h3>
             <p>Bug Bounty Tools for Linux</p>
-            <a href="https://github.com/diwsec/penttools" target="_blank" rel="noopener" class="btn-rounded-blue"
-              >View Project</a
-            >
+            <a href="https://github.com/diwsec/penttools" target="_blank" rel="noopener" class="btn-rounded-blue">View
+              Project</a>
           </div>
         </div>
         <!-- <div class="project shadow">
@@ -352,6 +340,7 @@
 
     <!-- End #projects -->
 
+
     <section id="skills">
       <h2 class="heading">Skills</h2>
       <p>
@@ -360,7 +349,7 @@
         Web Application Penetration Testing
       </li>
       <li>
-        Network Penetration Testing 
+        Network Penetration Testing
       </li>
       <li>
         Cloud Penetration Testing
@@ -371,7 +360,7 @@
       <li>
         Automation / Scripting
       </li>
-      </section>
+    </section>
 
     <footer>
       <div class="top">
@@ -417,5 +406,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="scripts/scripts.min.js"></script>
     <script src="scripts/music.js"></script>
-  </body>
+</body>
+
 </html>
